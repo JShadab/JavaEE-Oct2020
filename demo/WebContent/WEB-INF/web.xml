@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>demo</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<context-param>
+		<param-name>PHONE</param-name>
+		<param-value>7007586179</param-value>
+	</context-param>
+
+
+	<servlet>
+		<servlet-name>MyServlet1</servlet-name>
+		<servlet-class>p1.MyServlet1</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet1</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>MyServlet2</servlet-name>
+		<servlet-class>p1.MyServlet2</servlet-class>
+
+	</servlet>
+
+	<servlet>
+		<servlet-name>EmpServlet</servlet-name>
+		<servlet-class>p2.EmpServlet</servlet-class>
+
+	</servlet>
+
+	<servlet>
+		<servlet-name>FirstServlet</servlet-name>
+		<servlet-class>p3.FirstServlet</servlet-class>
+
+		<init-param>
+			<param-name>EMAIL</param-name>
+			<param-value>amit@admin.com</param-value>
+		</init-param>
+
+	</servlet>
+	<servlet>
+		<servlet-name>SecondServlet</servlet-name>
+		<servlet-class>p3.SecondServlet</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>MyServlet2</servlet-name>
+		<url-pattern>/second</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MyServlet3</servlet-name>
+		<servlet-class>p1.MyServlet3</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet3</servlet-name>
+		<url-pattern>/third</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>EmpServlet</servlet-name>
+		<url-pattern>/emp</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>FirstServlet</servlet-name>
+		<url-pattern>/one</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>SecondServlet</servlet-name>
+		<url-pattern>/two</url-pattern>
+	</servlet-mapping>
+</web-app>
