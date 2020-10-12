@@ -21,7 +21,7 @@ public class PaymentServlet extends HttpServlet {
 		if (session == null) {
 			//Direct Payment Servlet
 			
-			resp.sendRedirect("/demo2/login.html");
+			resp.sendRedirect("/demo2/pages/login.html");
 			
 		} else {
 			//via Login Servlet
