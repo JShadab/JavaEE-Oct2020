@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns0:root xmlns:ns0="http://www.tibco.com/schemas/Test/Folder/Schema.xsd">
+  <ns0:Process>
+    <ns0:ProcessID>38</ns0:ProcessID>
+    <ns0:ProcessStatus>Fail</ns0:ProcessStatus>
+    <ns0:StartTime>2020:09:05 13:28:02</ns0:StartTime>
+    <ns0:EndTime>2020:09:05 13:33:08</ns0:EndTime>
+    <ns0:Parts>
+      <ns0:Total>4</ns0:Total>
+      <ns0:Success>4</ns0:Success>
+      <ns0:Fail>0</ns0:Fail>
+    </ns0:Parts>
+    <ns0:BOMs>
+      <ns0:Total>10</ns0:Total>
+      <ns0:Success>4</ns0:Success>
+      <ns0:Fail>4</ns0:Fail>
+    </ns0:BOMs>
+    <ns0:Documents>
+      <ns0:Total>0</ns0:Total>
+      <ns0:Success>0</ns0:Success>
+      <ns0:Fail>0</ns0:Fail>
+    </ns0:Documents>
+	<ns0:ECNs>
+      <ns0:Total>0</ns0:Total>
+      <ns0:Success>0</ns0:Success>
+      <ns0:Fail>0</ns0:Fail>
+    </ns0:ECNs>
+  </ns0:Process>
+</ns0:root>
